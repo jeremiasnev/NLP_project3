@@ -1,0 +1,20 @@
+This file goes trough how you can run the tasks in repository.
+
+Extracted queries are at .json files "Query1.json" and "Query2.json"
+queries.py requires dataset to be downloaded at the computer. As the dataset is large, I suggest just looking at the code without running it.
+
+Tasks can be runned if they are in the same folder as queries. In task 9 you need to have same folder structure as specified in row 7, as filepath to used table.
+stopwords.txt is list of stopwords extracted from the queries. You need to have it loaded and saved at the same folder to run tasks 7-9
+
+Python verion used:
+Python 3.8.10
+
+Other libraries:
+json5                        0.9.24
+matplotlib                   3.7.4
+matplotlib-inline            0.1.6
+numpy                        1.24.3
+pandas                       2.0.3
+pip                          24.3.1
+scikit-learn                 1.3.2
+wordcloud                    1.9.3
